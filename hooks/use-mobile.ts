@@ -8,16 +8,15 @@ export function useIsMobile() {
   });
   React.useEffect(() => {
     const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);
-    
+
     const onChange = () => {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsMobile(mql.matches);
     };
-    
+
     mql.addEventListener("change", onChange);
-     arriba
     return () => mql.removeEventListener("change", onChange);
-  }, []); 
+  }, []);
 
   return !!isMobile;
 }
