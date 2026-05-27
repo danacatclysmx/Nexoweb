@@ -14,10 +14,10 @@ export function HeroSection() {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-accent/20 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-800px h-800px bg-primary/5 rounded-full blur-3xl" />
 
         {/* Grid Pattern */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(59,130,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(59,130,246,0.03)_1px,transparent_1px)] bg-[size:60px_60px]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(59,130,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(59,130,246,0.03)_1px,transparent_1px)] bg-size:60px_60px" />
       </div>
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
@@ -46,7 +46,7 @@ export function HeroSection() {
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6"
             >
               Conectamos tu negocio con el{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-accent">
                 mundo digital
               </span>
             </motion.h1>
@@ -157,7 +157,7 @@ export function HeroSection() {
                 >
                   <div className="bg-card rounded-2xl border border-border/50 p-2 shadow-2xl shadow-primary/10">
                     <div className="w-8 h-1 bg-muted rounded-full mx-auto mb-2" />
-                    <div className="bg-secondary rounded-lg p-3 aspect-[9/16] flex items-center justify-center">
+                    <div className="bg-secondary rounded-lg p-3 aspect-9/16 flex items-center justify-center">
                       <Smartphone className="w-8 h-8 text-primary" />
                     </div>
                   </div>

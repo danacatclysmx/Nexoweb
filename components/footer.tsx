@@ -103,13 +103,13 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Contacto</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground text-sm">
                   Bucaramanga, Santander, Colombia
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-primary flex-shrink-0" />
+                <Phone className="w-5 h-5 text-primary shrink-0" />
                 <a
                   href="tel:+573001234567"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
@@ -118,7 +118,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
+                <Mail className="w-5 h-5 text-primary shrink-0" />
                 <a
                   href="mailto:contacto@nexoweb.co"
                   className="text-muted-foreground hover:text-primary transition-colors text-sm"
@@ -127,7 +127,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Instagram className="w-5 h-5 text-primary flex-shrink-0" />
+                <Instagram className="w-5 h-5 text-primary shrink-0" />
                 <a
                   href="https://instagram.com/nexoweb.bga"
                   target="_blank"
@@ -147,7 +147,7 @@ export function Footer() {
             © {new Date().getFullYear()} Nexoweb. Todos los derechos reservados.
           </p>
           <p className="text-muted-foreground text-sm">
-            Hecho con ❤️ en Bucaramanga
+            Hecho con estilo😎 y mucho estres. gracias
           </p>
         </div>
       </div>

@@ -19,7 +19,7 @@ export function ContactSection() {
     e.preventDefault();
     // Crear mensaje para WhatsApp
     const whatsappMessage = `Hola! Soy ${formData.name}. ${formData.message}. Mi correo es ${formData.email} y mi teléfono ${formData.phone}`;
-    const whatsappUrl = `https://wa.me/573001234567?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://www.whatsapp.com/?lang=estext=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -59,7 +59,7 @@ export function ContactSection() {
 
               <div className="space-y-4">
                 <a
-                  href="https://wa.me/573001234567"
+                  href="https://www.whatsapp.com/?lang=es"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-green-500/10 hover:bg-green-500/20 transition-colors group"

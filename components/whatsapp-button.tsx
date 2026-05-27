@@ -7,8 +7,7 @@ import { useState } from "react";
 export function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = useState(true);
 
-  const whatsappUrl =
-    "https://wa.me/573001234567?text=Hola!%20Me%20interesa%20información%20sobre%20sus%20servicios%20de%20diseño%20web.";
+  const whatsappUrl = "https://www.whatsapp.com/?lang=es";
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
@@ -19,7 +18,7 @@ export function WhatsAppButton() {
             animate={{ opacity: 1, x: 0, scale: 1 }}
             exit={{ opacity: 0, x: 20, scale: 0.8 }}
             transition={{ duration: 0.3 }}
-            className="absolute bottom-full right-0 mb-3 bg-card border border-border rounded-xl p-4 shadow-xl min-w-[200px]"
+            className="absolute bottom-full right-0 mb-3 bg-card border border-border rounded-xl p-4 shadow-xl min-w-200px"
           >
             <button
               onClick={() => setShowTooltip(false)}
