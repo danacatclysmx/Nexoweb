@@ -90,7 +90,7 @@ export function HeroSection() {
               className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-border/50"
             >
               {[
-                { value: "50+", label: "Proyectos" },
+                { value: "1+", label: "Proyectos" },
                 { value: "100%", label: "Satisfacción" },
                 { value: "24/7", label: "Soporte" },
               ].map((stat) => (
