@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // 👇 Para GitHub Pages (cambia 'nombre-repo' por el tuyo)
-  basePath: "/nombre-de-tu-repositorio",
-  assetPrefix: "/nombre-de-tu-repositorio",
+  basePath: "/nexoweb",
+  assetPrefix: "/nexoweb",
 
   // 👇 Modo estático
   output: "export",
