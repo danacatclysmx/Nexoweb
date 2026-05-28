@@ -72,9 +72,9 @@ export function AboutSection() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               {[
-                { value: "5+", label: "Años de Experiencia" },
-                { value: "50+", label: "Clientes Felices" },
-                { value: "100+", label: "Proyectos Entregados" },
+                { value: "0+", label: "Recien fundada pero en crecimiento" },
+                { value: "1+", label: "Clientes Felices" },
+                { value: "1+", label: "Proyectos Entregados" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center lg:text-left">
                   <div className="text-2xl lg:text-3xl font-bold text-primary">
