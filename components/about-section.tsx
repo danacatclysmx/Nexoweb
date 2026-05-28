@@ -40,7 +40,7 @@ export function AboutSection() {
     <section id="nosotros" className="py-24 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-secondary/30" />
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-primary/50 to-transparent" />
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10" ref={ref}>
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
